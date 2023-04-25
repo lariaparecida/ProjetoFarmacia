@@ -32,8 +32,8 @@ public class CategoriaController {
 	@Autowired
 	private CategoriaRepository categoriaRepository;
 	
-	//@Autowired
-	//private ProdutoRepository produtoRepository;
+	@Autowired
+	private ProdutoRepository produtoRepository;
 	
 	@GetMapping
 	public ResponseEntity<List<Categoria>> getAll(){
